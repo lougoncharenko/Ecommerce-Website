@@ -36,3 +36,17 @@ body {
   .page-header a:hover{
     color: black;
   }
+
+  .items {
+    width: 80%;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+
+  .items img {
+    width: 100%;
+    height: auto;
+  }
