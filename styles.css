@@ -7,9 +7,19 @@ body {
     margin: 0;
   }
 
+  /* Page 1 Styles ---------------------------------------------------------------------------- */
+  #cover-photo {
+    background-image:url("https://www.lovethegarden.com/sites/default/files/styles/header_image_xl/public/content/articles/UK_learn-grow-garden-advice-gardening-houseplants-best-indoor-plants_header.jpg?itok=uvofKB4t");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 400px;
+  }
+
+  /* Page 2 Styles ---------------------------------------------------------------------------- */
   .page-header {
     padding: 20px;
-    background-color: rgb(169, 59, 99);
+    background-color: rgb(12, 172, 65);
 }
 
 .page-header ul {
@@ -36,6 +46,9 @@ body {
   .page-header a:hover{
     color: black;
   }
+  main {
+    padding: 20px;
+  }
 
   .items {
     width: 80%;
@@ -50,3 +63,88 @@ body {
     width: 100%;
     height: 200px;
   }
+
+
+  #cart{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+
+  #item-list{
+    list-style: none;
+  }
+
+
+/* Contact Page ---------------------------------------------------------------------------- */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    max-width: 600px;
+    
+  }
+
+  input,
+  textarea {
+    font-size: 1em;
+    padding: 0.75em;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    width:100%;
+    height:6em;
+ 
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  label.h {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  #titles{
+    margin: 20px;
+    font-size: 20px;
+    line-height:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-decoration: none;
+
+  }
+
+  input[type=text],
+    input[type=email],
+    input[type=date] {
+      border-style: solid;
+      border-width: 1px;
+      border-color: #666;
+      margin: 1em 0 1em 0;
+      border-radius: 0.25em;
+      
+    }
+
+    button[type=submit] {
+        padding: 1em;
+        border:none;
+        border-radius: 0.25em;
+        margin: 0 0 1em 0;
+        width: 100px;
+      align-self: flex-end;
+      }
+
+      span{
+          font-size: 20px;
+          text-decoration: underline;
+      }
