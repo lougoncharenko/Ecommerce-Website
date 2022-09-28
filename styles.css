@@ -16,6 +16,42 @@ body {
     height: 400px;
   }
 
+  #who-are-we{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #f1f1f1;
+  }
+
+  #who-are-we p{
+      color: black;
+      line-height: 1.5;
+      font-weight: 700;
+      font-size: 20px;
+  }
+  
+  h2{
+      text-align: center;
+      text-decoration: underline;
+      color:darkgreen
+  }
+
+  #coloumns{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .column {
+    /* float: left;
+    width: 33.33%; */
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
   /* Page 2 Styles ---------------------------------------------------------------------------- */
   .page-header {
     padding: 20px;
@@ -23,15 +59,24 @@ body {
 }
 
 .page-header ul {
+    padding:15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
   }
 
-  .page-header h1 {
+  .page-header h1{
     text-align: center;
     font-size: 50px;
+    text-shadow: 2px 2px 2px pink;
+  }
+
+  .page-header p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
     text-shadow: 2px 2px 2px pink;
   }
 
@@ -51,9 +96,9 @@ body {
   }
 
   .items {
+    margin:100px 0  0 100px;
     width: 80%;
-    margin: auto;
-  
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
@@ -148,3 +193,18 @@ form {
           font-size: 20px;
           text-decoration: underline;
       }
+
+
+/* Footer ---------------------------------------------------------------------------- */
+
+
+footer{
+    background-image: url(https://plantperfect.com/wp-content/uploads/2020/09/headerhouseplants.png);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    color: white;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+}
