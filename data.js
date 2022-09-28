@@ -34,6 +34,19 @@ const data = [{
     "image": "images/snakeplant.jpeg",
     "desc": "Snake Plant",
     "price": 5.99
+  },{
+    "id": 7,
+    "name": 'Peace Lily',
+    "image": "images/peacelily.jpeg",
+    "desc": "Peace Lily",
+    "price": 5.99
+  },{
+    "id": 8,
+    "name": 'Bonsai',
+    "image": "images/peacelily.jpeg",
+    "desc": "Peace Lily",
+    "price": 5.99
+
   }]
 
   export default data;
